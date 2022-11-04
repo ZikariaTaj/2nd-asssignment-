@@ -1,0 +1,136 @@
+
+h1{
+    background-color: blue;
+    font size: 45;
+    text decoration:none
+
+}
+.m1{
+    background-color: blue;
+    color: #1b1b1b;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    text-decoration: wavy;
+
+}
+h2,h3,h4{
+    background-color: #121212;
+    font-family: "Times New Roman", Times, serif;
+    color: #987;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 50px;
+    
+}
+.para{
+    font-size: large;
+    font-family: "Times New Roman", Times, serif;
+    color: #dfdfdf;
+    text-decoration: double;
+    text-align: left;
+    text-shadow: 2px 
+    2px 4px #000000;
+}
+.meta{
+    color: midnightblue;
+    text-decoration: none;
+    text-shadow: 2px;
+    font-family: "Times New Roman", Times, serif;
+}
+.strong{
+    display: hidden;
+    font: 100;
+    background-color: pink;
+    font font-family: Arial, "ariel, Helvetica, sans-serif";
+
+} 
+.strong:hover{
+    color: darkolivegreen;
+}
+table:hover{
+    color: aqua;
+    height: auto;
+    width: auto;
+
+}
+table{
+    
+    from {
+        background-color: red;
+    }
+    to {
+        background-color:darkkhaki;
+    }
+}
+img{  margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+
+}
+caption:mouse :-moz-drag-over{
+color: dark brown;
+}
+p.solid {border-style: solid;}
+b{
+    text-align: right;
+    font-size: x-large;
+    color: dark yellow;
+    height: auto;
+    width: auto;
+    padding: auto;: 0ch;
+    border:3px solid green;
+
+}
+.article{
+    text-align: center;
+    color: blueviolet;
+}
+.ref
+    {
+        position: absolute;
+        right: 0px;
+        width: 300px;
+        border: 3px solid #73AD21;
+        padding: 10px;
+        
+      }
+.abbr{
+    color: #73AD21;
+    font-size: xx-large;
+    text-align: center;
+    position: fixed;
+
+}
+.q:visited{
+    color: darkorange;
+}
+span{
+    color: darkred;
+}
+.mian caption{
+    text-align: center;  
+    color: #73AD21;
+    font-size: xx-large ;
+      
+}
+
+.footer ul{
+    font: 100;
+    color: darkgoldenrod;
+} 
+.footer li{
+    color: lightslategray;
+    font-size: larger;
+    text-decoration: none;
+    text-overflow: inherit;
+}
+table .hello{
+    color: #73AD21;
+}
+.third input{
+    color: darkgreen;
+}
+meta{
+    color: #73AD21;
+}
