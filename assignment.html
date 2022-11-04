@@ -73,8 +73,20 @@
      Visit us at:<br>
      Example.com<br>
     Box 564, Disneyland<br>
+    <style>
+        q{
+            color: crimson;
+            font-size: xx-large;
+            font-style: italic;
+        }
+        i{
+            color: lightgray;
+        }
+
+    </style>
     USA
     <br>
+
     <!---Italic  tag-->
     <i>italic font can be written by this tag</i>
     <br>
@@ -120,11 +132,22 @@
         <!---pre tag-->     
         </pre>
         <hr>
+        dd
         <style>
             hr{
                 color: brown;
                 font-style: unset;
 
+
+            }
+            dd{
+                
+                color: brown;
+                font-style: unset;
+            }
+            span{
+                color: brown;
+                font-style: unset;
             }
         </style>
         <span>In HTML, the span tag is a generic inline container element. Span tags usually wrap sections of text for styling purposes or for adding attributes to a section of text without creating a new line of content.</span>
@@ -177,6 +200,12 @@
     <!---iamge and audio tags tag--> 
     <img src="premium_photo-1663932464938-02f3d0f9cf8f.jpeg" alt="wedding picture of Adeel" width="100px" height="100px">
     <br>
+    <style>
+        img{
+            margin-top: -50px;
+      margin-right: -100;
+        }
+    </style>
     <hr>
 <audio controls src="aaya-hai-bulawa-mujhe-darbare-nabi-se.mp3"></audio>
 <br>
@@ -219,6 +248,17 @@
 <i class="fas fa-file"></i>
 <i class="fas fa-bars"></i>
         <ul>
+            <style>
+                li{
+                    list-style: none;
+        display: inline;
+        margin: 0;
+        justify-content: space-between;
+        width : 20%;
+        padding: 25px 0 25px 0;
+        text-align: center;
+                }
+            </style>
             <li><a href="#">Copyright 1997-2022 </a></li>
             <li><a href="#">contact us</a></li>
             <li><a href="#">Report about our customers</a></li>
@@ -236,7 +276,17 @@
 <div>
     <!---video  tag--> 
  <video controls src="7-how-to-create-html-and-css-comments-learn-html-and-css-html-tutorial-css-tutorial-easysave.net.mp4"></video>
-    <style></style>
+    <style> 
+    video{
+    padding-top: 0%;
+    list-style: none;
+        display: inline;
+        margin: 0;
+        justify-content: space-between;
+        width : 20%;
+        padding: 25px 0 25px 0;
+        text-align: center;
+    }</style>
 </div>
 <div >
  <!---web form  tag-->
@@ -406,7 +456,12 @@
     </style>
     <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
     <br>
-    <dialog open>This is an open dialog window</dialog>
+    <style>
+        dialog:hover{
+            color: blue;
+        }
+    </style>
+    <dialog open>This is an hover  button click me </dialog>
     <br>
     <embed type="pic.html" src="pic_trulli.jpg" width="300" height="200">
         <br>
@@ -431,6 +486,21 @@
       <svg width="100" height="100">
         <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
       </svg>
+      <style>
+        textarea{
+            color: mediumseagreen;
+        }
+        p{
+            color: lightsteelblue;
+
+        }
+        strong{
+            color: sandybrown;
+        }
+        form{
+            color: lightslategrey;
+        }
+      </style>
       <br>
       <p>To learn AJAX, you must be familiar with the XML<wbr>Http<wbr>Request Object.</p>
       <br>
